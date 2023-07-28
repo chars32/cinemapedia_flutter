@@ -15,7 +15,7 @@ class MovieMapper {
         popularity: moviedb.popularity,
         posterPath: (moviedb.posterPath != '')
             ? 'https://image.tmdb.org/t/p/w500/${moviedb.posterPath}'
-            : 'https://rlv.zcache.com.au/no_posters-rdfd34a120d994f8fbe7bac4fa3fdd1ec_wv4_8byvr_307.jpg',
+            : 'no-poster',
         releaseDate: moviedb.releaseDate,
         title: moviedb.title,
         video: moviedb.video,
