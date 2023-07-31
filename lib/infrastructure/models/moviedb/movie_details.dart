@@ -138,8 +138,8 @@ class BelongsToCollection {
       BelongsToCollection(
         id: json['id'],
         name: json['name'],
-        posterPath: json['posterPath'],
-        backdropPath: json['backdropPath'],
+        posterPath: json['posterPath'] ?? '',
+        backdropPath: json['backdropPath'] ?? '',
       );
 
   Map<String, dynamic> toJson() => {
