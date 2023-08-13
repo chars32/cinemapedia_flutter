@@ -50,7 +50,7 @@ class CustomAppbar extends ConsumerWidget {
                   ).then((movie) {
                     if (movie == null) return;
                     context.push(
-                      '/movie/${movie.id}',
+                      '/home/0/movie/${movie.id}',
                     );
                   });
                 },
